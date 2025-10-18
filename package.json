@@ -1,0 +1,25 @@
+{
+  "name": "swinface",
+  "version": "1.0.0",
+  "description": "Intelligent Attendance and Activity Monitoring System",
+  "scripts": {
+    "setup": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "echo 'Please run services in separate terminals. See QUICKSTART.md'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/SwinFace.git"
+  },
+  "keywords": [
+    "attendance",
+    "face-recognition",
+    "activity-monitoring",
+    "yolo",
+    "facenet",
+    "education",
+    "computer-vision"
+  ],
+  "author": "Swinburne University",
+  "license": "MIT"
+}
+

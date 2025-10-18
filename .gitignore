@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads and outputs
+uploads/*.mp4
+uploads/*.avi
+uploads/*.mov
+outputs/*/
+!outputs/.gitkeep
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# Models (large files)
+models/*.pt
+models/*.pth
+models/*.onnx
+!models/.gitkeep
+
+# Face database (privacy)
+known_faces/*/
+!known_faces/.gitkeep
+
+# Build files
+frontend/dist/
+frontend/build/
+*.min.js
+*.min.css
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Documentation builds
+docs/_build/
+
