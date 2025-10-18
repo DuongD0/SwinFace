@@ -1,7 +1,4 @@
-# SwinFace - Intelligent Attendance and Activity Monitoring System
-
-SwinFace is a comprehensive full-stack application that combines face recognition, motion tracking, and activity analysis to automatically monitor student attendance and engagement in classroom environments.
-
+# Intelligent Attendance and Activity Monitoring System
 ## Features
 
 - **Automated Video Processing**: Upload classroom videos for automated face detection and tracking
@@ -352,49 +349,6 @@ Frontend with hot reload:
 cd frontend
 npm run dev
 ```
-
-## Project Structure Details
-
-See `DOCUMENTATION.md` for:
-- Detailed architecture diagrams
-- Workflow documentation
-- Database schema
-- Code organization
-- Contribution guidelines
-
-## Performance Considerations
-
-- **Video Processing Time**: ~2-5 minutes for a 1-hour video (GPU)
-- **Face Recognition**: ~30ms per face (GPU)
-- **Database**: Indexed for fast queries
-- **Storage**: ~500MB per processed session (video + outputs)
-
-## Security Notes
-
-**Important**: This is a development setup. For production:
-
-1. Change default database credentials
-2. Configure CORS properly
-3. Add authentication/authorization
-4. Use HTTPS
-5. Implement rate limiting
-6. Sanitize file uploads
-7. Add input validation
-
-## License
-
-This project is created for educational purposes.
-
-## Support
-
-For issues or questions, please refer to `DOCUMENTATION.md` or contact the development team.
-
-## Contributors
-
-- Development Team: Swinburne University
-- Based on FaceMotion and swin_lms projects
-
----
 
 **Built using YOLOv11, FaceNet, React, and FastAPI**
 
